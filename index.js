@@ -45,6 +45,10 @@ app.post('/posth1', async(req, res)=>{
     
 });
 
+app.get("/", (req, res)=>{
+    res.send("FastVert Server");
+});
+
 
 
 
